@@ -5,11 +5,9 @@ Home: https://CRAN.R-project.org/package=MCL
 
 Package license: GPL (>= 2)
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mcl-feedstock/blob/master/LICENSE.txt)
 
 Summary: Contains the Markov cluster algorithm (MCL) for identifying clusters in networks and graphs. The algorithm simulates random walks on a (n x n) matrix as the adjacency matrix of a graph. It alternates an expansion step and an inflation step until an equilibrium state is reached.
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-mcl` from the `conda-forge` channel can be achieved by adding `con
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-mcl` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
