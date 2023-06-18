@@ -1,11 +1,11 @@
-About r-mcl
-===========
+About r-mcl-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mcl-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=MCL
 
 Package license: GPL (>= 2)
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mcl-feedstock/blob/main/LICENSE.txt)
 
 Summary: Contains the Markov cluster algorithm (MCL) for identifying clusters in networks and graphs. The algorithm simulates random walks on a (n x n) matrix as the adjacency matrix of a graph. It alternates an expansion step and an inflation step until an equilibrium state is reached.
 
